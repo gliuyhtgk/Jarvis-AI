@@ -65,7 +65,7 @@ def computational_intelligence(question):
         print(answer)
         return answer
     except:
-        speak("Sorry sir I couldn't fetch your question's answer. Please try again ")
+        speak("Sorry sir I couldn't fetch your question's answer.")
         return None
 
 def wishMe():

@@ -21,7 +21,7 @@ def speak(audio):
 
 def NasaNews(Date):
 
-    speak('connecting to cortana cloud....')
+    speak('sir i am connecting to cortana cloud....')
 
     Url = "https://api.nasa.gov/planetary/apod?api_key=" + str(Api_key)
 

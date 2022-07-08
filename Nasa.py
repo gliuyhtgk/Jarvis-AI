@@ -23,7 +23,7 @@ def NasaNews(Date):
 
     speak('sir i am connecting to cortana cloud....')
 
-    Url = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY" + str(Api_key)
+    Url = "https://api.nasa.gov/neo/rest/v1/feed?start_date=2015-09-07&end_date=2015-09-08&api_key=DEMO_KEY" + str(Api_key)
 
     Params = {'date':str(Date)}
     

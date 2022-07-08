@@ -23,7 +23,7 @@ def NasaNews(Date):
 
     speak('sir i am connecting to cortana cloud....')
 
-    Url = "https://api.nasa.gov/planetary/earth/imagery" + str(Api_key)
+    Url = "https://api.nasa.gov/insight_weather/?api_key=DEMO_KEY&feedtype=json&ver=1.0" + str(Api_key)
 
     Params = {'date':str(Date)}
     

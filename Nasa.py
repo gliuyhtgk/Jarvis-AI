@@ -23,7 +23,7 @@ def NasaNews(Date):
 
     speak('sir i am connecting to cortana cloud....')
 
-    Url = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY" + str(Api_key)
+    Url = "https://api.nasa.gov/planetary/apod?api_key=" + str(Api_key)
 
     Params = {'date':str(Date)}
     
@@ -45,9 +45,9 @@ def NasaNews(Date):
 
         f.write(Image_r.content)
 
-    Path_1 = "C:\\Users\\Usuario\\Desktop\\jarvisGUI\\"+ str(FileName)
+    Path_1 = "C:\\Users\\sam\\Desktop\\jarvisGUI\\"+ str(FileName)
 
-    Path_2 = "C:\\Users\\Usuario\\Desktop\\jarvisGUI\\Nasa" + str(FileName)
+    Path_2 = "C:\\Users\\sam\\Desktop\\jarvisGUI\\Nasa" + str(FileName)
 
     os.rename(Path_1, Path_2)
 
